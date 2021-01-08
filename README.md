@@ -8,7 +8,7 @@ According to a customer review on November 22, 2019 from [Amazon](https://www.am
 
 These keyboards manufactured by Primax send one extra byte with every keystroke. After my research, I realized that the implementation is not wrong according to HID (Human Interface Device) specification, but not a common one. Windows supports parsing the HID data with the external byte; however MacOS does not. Further information can be found [here](https://www.linux.org.ru/forum/linux-hardware/14777529)
 
-Support for the extra byte has been implemented to Linux in February and published with the Linux Kernel 5.2 in April. Further information can be found [here](https://lkml.org/lkml/2019/2/28/510) and [here](https://unix.stackexchange.com/questions/377830/linux-hid-driver-for-primax-wireless-keyboards).
+Support for the extra byte has been implemented to Linux in February 2019 and published with the Linux Kernel 5.2 in April 2019. Further information can be found [here](https://lkml.org/lkml/2019/2/28/510) and [here](https://unix.stackexchange.com/questions/377830/linux-hid-driver-for-primax-wireless-keyboards).
 
 HP Pavilion 600 keyboard is not the only keyboard with this issue; some from Lenovo and Asus have that issue as well.
 
