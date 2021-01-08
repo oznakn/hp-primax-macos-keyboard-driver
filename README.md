@@ -34,10 +34,14 @@ Then run `make`. This will create a executable called `driver`. Run `driver` wit
 
 For an unknown reason, sometimes the library cannot open the keyboard device. Try rerunning the command a few times.
 
+## Contribution
+
+Please feel free to contribute.
+
 ## Authors
 
 * [Ozan Akın](https://github.com/oznakn)
 
-## Contribution
+## License
 
-Please feel free to contribute.
+See `LICENSE.md`.
